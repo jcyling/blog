@@ -1,0 +1,20 @@
+---
+layout: default
+title: Jane Ling
+path: home
+---
+
+<div class="container mx-auto lg:h-screen flex flex-col justify-center items-center">
+  <h1>
+    Hi, I'm
+    <strong class="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-400">
+      {{title}}.
+    </strong>
+  </h1>
+
+  <p>
+    A self-taught full stack developer from the UK.
+  </p>
+
+  {% include "./_includes/partials/content.html" %}
+</div>

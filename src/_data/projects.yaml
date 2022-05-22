@@ -1,0 +1,14 @@
+---
+links:
+  - title: Perpetual Sunset
+    url: "https://github.com/jcyling/sunset-bot"
+    desc: A sunset photo for every hour of the day from Twitter users
+  - title: Origami Terminal
+    url: "https://github.com/jcyling/origami-terminal"
+    desc: A paper trading portfolio using real-time data.
+  - title: AR Exhibition
+    url: "https://www.aaschool.ac.uk/publicprogramme/whatson/honours-commendations-prizes-exemplary-projects-201920"
+    desc: An AR exhibition for an architecture school's end-of-year show.
+  - title: Blog
+    url: "/blog"
+    desc: On learning software as a self-taught developer.
