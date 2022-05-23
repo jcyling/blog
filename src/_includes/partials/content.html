@@ -1,15 +1,14 @@
 <h3 class="mt-7">Projects</h3>
 
-<div class="w-full max-w-2xl grid grid-cols-1 lg:grid-cols-2 gap-4 my-4 px-4 lg:mx-0">
+<div class="w-full max-w-2xl grid grid-cols-1 lg:grid-cols-2 gap-4 mt-4 mb-10 px-4 lg:mx-0">
     {% if projects.links %}
 
-        {% for item in projects.links %}
-            <a href="{{item.url}}" target="_blank" class="p-5 border rounded border-gray-200 hover:border-blue-400">
-                <h3>{{item.title}}
-                    →</h3>
-                <p>{{item.desc}}</p>
-            </a>
-        {% endfor %}
+    {% for item in projects.links %}
+    <a href="{{item.url}}" target="_blank" class="p-5 border rounded border-gray-200 hover:border-blue-400">
+        <h3>{{item.emoji}} {{item.title}}→</h3>
+        <p>{{item.desc}}</p>
+    </a>
+    {% endfor %}
 
     {% endif %}
 

@@ -1,14 +1,21 @@
 ---
 links:
   - title: Perpetual Sunset
+    emoji: "🌇"
+    image: "/static/img/00-perpetualSunset.png"
     url: "https://github.com/jcyling/sunset-bot"
     desc: A sunset photo for every hour of the day from Twitter users
   - title: Origami Terminal
+    emoji: "📈"
+    image: "/static/img/00-origamiTerminal.png"
     url: "https://github.com/jcyling/origami-terminal"
     desc: A paper trading portfolio using real-time data.
   - title: AR Exhibition
+    emoji: "📱"
+    image: "/static/img/00-aaExhibition.jpg"
     url: "https://www.aaschool.ac.uk/publicprogramme/whatson/honours-commendations-prizes-exemplary-projects-201920"
     desc: An AR exhibition for an architecture school's end-of-year show.
   - title: Blog
+    emoji: "⌨️"
     url: "/blog"
     desc: On learning software as a self-taught developer.
