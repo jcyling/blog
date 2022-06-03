@@ -5,11 +5,10 @@ links:
     image: "/static/img/00-perpetualSunset.png"
     url: "https://github.com/jcyling/sunset-bot"
     desc: A sunset photo for every hour of the day from Twitter users
-  - title: Origami Terminal
-    emoji: "📈"
-    image: "/static/img/00-origamiTerminal.png"
-    url: "https://github.com/jcyling/origami-terminal"
-    desc: A paper trading portfolio using real-time data.
+  - title: London Tube Bot
+    emoji: "🚇"
+    url: "https://github.com/jcyling/london-tube-bot"
+    desc: A Telegram messaging bot that gives you updates on the London Underground.
   - title: AR Exhibition
     emoji: "📱"
     image: "/static/img/00-aaExhibition.jpg"
