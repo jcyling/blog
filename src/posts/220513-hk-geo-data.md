@@ -5,11 +5,10 @@ description: "Part 1: Intro to GIS data in Hong Kong"
 author: Jane Ling
 date: 2022-05-13T14:45:58.169Z
 tags:
-  - left
-  - center
-  - right
+  - GIS
+  - architecture
 ---
-## How do you build a 3D site model in Rhino using Hong Kong GIS data?
+## How do you quickly build a 3D site model in Rhino using Hong Kong GIS data?
 
 This is a post summarizing some work that I did for a series of workshops at the Chinese University of Hong Kong’s architecture department, where I showed students how to use data from the Hong Kong Geodata Store's public datasets to build a site model. Given how hard it often is to find tutorials or documentation for data in smaller localities, maybe this would help anyone looking to do something with this datasource. 
 
@@ -23,15 +22,21 @@ One tip about using GIS data - **always read the information provided on the dat
 
 ## What kind of data can you get?
 
+![HK Geo Data Store](/static/img/01-HKGeoData-Store.png)
+
 Well, GIS data can range a lot in terms of what they offer. If you have a look at NASA's USGS Earth Explorer and the long list of things you can request from their web app, you can get an idea of how much you can get.
 
 However, since we're focusing on the data available in Hong Kong: here are the datasets that I found useful to my workflow for building a site model:
 
 ### 2D Digital Topographic Map
 
+![2D Topographic Map](/static/img/01-HKGeoData-2D.png)
+
 As titled, it is basically a flat drawing available in **DWG** or **DXF**. This is good for setting out your site plan or masterplan. Once you have opened it in CAD, you will inevitably notice that it has a ton of layers that you don't want. Simplify this to your advantage. It comes a in scale from 1:1000 - 1:20000.
 
 ### 3D Visualization Map
+
+![3D Visualization Map](/static/img/01-HKGeoData-3DVisualization.png)
 
 This is a really informative dataset for such an unassuming name. The dataset consists 3D meshes in 150m x 150m sizes, and are *very detailed* mesh models of Hong Kong. Its level of detail is similar to photogrammetry models and therefore in each model you can see existing vegetation or perimeter walls on site.
 
@@ -39,7 +44,9 @@ Obviously one would not use this model as a site model - a lot of cleanup would 
 
 ### 3D-BIT00
 
-> 3D Spatial Data is a set of territory-wide digital 3D model data created to represent the shape, appearance and position of various types of ground features including building, infrastructure and terrain. In this dataset, the 3D models are categorized into seven secondary classes under three primary classes according to their types and level of details.
+![3D BIT00](/static/img/01-HKGeoData-3DBIT00.png)
+
+3D Spatial Data is a set of territory-wide digital 3D model data created to represent the shape, appearance and position of various types of ground features including building, infrastructure and terrain. In this dataset, the 3D models are categorized into seven secondary classes under three primary classes according to their types and level of details.
 
 This is the summary given by the Hong Kong Lands Department on this dataset - there's a lot more information on their data sheet as well which the bullet points below refers to). It's composed of several layers of information: buildings, infrastructure, and terrain. This is the data that I found most useful for building a site model because:
 
@@ -51,5 +58,3 @@ This is the summary given by the Hong Kong Lands Department on this dataset - th
 Of course, outside of these 3 datasets, there's many other datasets lying about on the Geodata Store that might be interesting from an architectural perspective - you can get the coordinates of all COVID-19 cases, the location of all Brownfield site, etc etc.
 
 For the purpose of building a site model, one only needs to download the 3D-BIT00 (and the 2D Topographic Map, if you plan on doing some kind of site drawing). In the next part I will cover how you can import information into your Rhino models.
-
-`Work in Progress! This article will be updated with images.`
