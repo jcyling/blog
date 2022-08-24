@@ -1,5 +1,10 @@
 ---
 links:
+  - title: Long Distance Friends
+    emoji: "🌏"
+    image: "/static/img/00-perpetualSunset.png"
+    url: "https://github.com/jcyling/long-distance-friends"
+    desc: A scheduling web app for friends and family in different timezones
   - title: Perpetual Sunset
     emoji: "🌇"
     image: "/static/img/00-perpetualSunset.png"
@@ -9,12 +14,12 @@ links:
     emoji: "🚇"
     url: "https://github.com/jcyling/london-tube-bot"
     desc: A Telegram messaging bot that gives you updates on the London Underground.
-  - title: AR Exhibition
-    emoji: "📱"
-    image: "/static/img/00-aaExhibition.jpg"
-    url: "https://www.aaschool.ac.uk/publicprogramme/whatson/honours-commendations-prizes-exemplary-projects-201920"
-    desc: An AR exhibition for an architecture school's end-of-year show.
   - title: Blog
     emoji: "⌨️"
     url: "/blog"
     desc: On learning software as a self-taught developer.
+  # - title: AR Exhibition
+  #   emoji: "📱"
+  #   image: "/static/img/00-aaExhibition.jpg"
+  #   url: "https://www.aaschool.ac.uk/publicprogramme/whatson/honours-commendations-prizes-exemplary-projects-201920"
+  #   desc: An AR exhibition for an architecture school's end-of-year show.
